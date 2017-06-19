@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkjava-soap.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkjava-soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkjava-soap_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkjava-soap_main.iml" group="sparkjava-soap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkjava-soap_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkjava-soap_test.iml" group="sparkjava-soap" />
+    </modules>
+  </component>
+</project>
