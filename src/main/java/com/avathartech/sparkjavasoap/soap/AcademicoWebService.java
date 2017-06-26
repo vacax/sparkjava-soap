@@ -15,15 +15,20 @@ import java.util.List;
 @WebService
 public class AcademicoWebService {
 
+    @WebMethod
+    public String holaMundo(String hola){
+        return hola;
+    }
 
     @WebMethod
     public Estudiante getEstudiante(int matricula){
+        System.out.println("Ejecutando en el servidor");
         return new Estudiante(matricula, "Estudiante "+matricula);
     }
 
     @WebMethod
     public Profesor getProfesor(String cedula){
-       return new Profesor(cedula, "Profesor "+cedula);
+        return new Profesor(cedula, "Profesor "+cedula);
     }
 
     @WebMethod
@@ -47,6 +52,6 @@ public class AcademicoWebService {
         return listado;
     }
 
-    
+
 
 }
