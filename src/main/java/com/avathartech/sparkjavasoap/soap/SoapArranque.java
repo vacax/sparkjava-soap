@@ -24,12 +24,14 @@ public class SoapArranque {
         server.setHandler(contextHandlerCollection);
         server.start();
 
-        //
+        //El contexto donde estoy agrupando.
         HttpContext context = build(server, "/ws");
+        
+        //El o los servicios que estoy agrupando en ese contexto
         AcademicoWebService wsa = new AcademicoWebService();
         Endpoint endpoint = Endpoint.create(wsa);
-        endpoint.publish(context);
-        // access wsdl on http://localhost:7777/ws/AcademicoWebService?wsdl
+        endpoint.publish(context); 
+        // Para acceder al wsdl en http://localhost:7777/ws/AcademicoWebService?wsdl
 
     }
 
