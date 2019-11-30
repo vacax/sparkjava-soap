@@ -17,6 +17,8 @@ dependencies {
     compile 'com.sparkjava:spark-template-freemarker:2.5.5'
     compile 'org.freemarker:freemarker:2.3.26-incubating'
     compile 'com.sparkjava:spark-debug-tools:0.5'
+    //log.
+    compile "org.slf4j:slf4j-simple:1.7.21"
     // Libreria 
     // https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-http-spi
     compile group: 'org.eclipse.jetty', name: 'jetty-http-spi', version: '9.4.4.v20170414'
